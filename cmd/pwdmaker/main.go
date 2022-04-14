@@ -28,5 +28,5 @@ func main() {
 
 	fmt.Printf("Resource: %s\n", opts.Resource)
 	fmt.Printf("Login: %s\n", opts.Login)
-	fmt.Printf("Generated pwd %s:\n", pwdgenerator.Generate(opts.Resource+opts.Login, opts.Number, true))
+	fmt.Printf("Generated pwd: %s\n", pwdgenerator.Generate(opts.Resource+opts.Login, opts.Number, true))
 }
